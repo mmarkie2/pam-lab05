@@ -48,6 +48,18 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Snackbar.make(this.findViewById(android.R.id.content).getRootView(), "settings", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
+            return true;
+        }
+        if (id == R.id.atr1) {
+            Snackbar.make(this.findViewById(android.R.id.content).getRootView(), "atr1", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
+            return true;
+        }
+        if (id == R.id.atr2) {
+            Snackbar.make(this.findViewById(android.R.id.content).getRootView(), "atr2", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
             return true;
         }
 
